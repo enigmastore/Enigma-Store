@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Shopping Cart design</title>
+	<link href="cart.css" rel="stylesheet">
+	<link rel="icon" type="image/x-icon" href="/imgs/logo1.png">
+    <script src="cart.js" async></script>
+</head>
+<body>
+    <div class="wrapper">
+		<div class="header">
+			<h1 class="heading">Shopping Cart</h1>
+            <svg class="cartlogo" width="3rem" height="2rem" viewBox="0 0 269 268" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M47.608 27.5567C49.7838 27.0456 52.0735 26.7768 54.4487 26.7819L241.276 40.1267C258.016 40.4223 274.394 54.3043 266.309 72.3405C264.735 75.8526 257.625 90.1548 246.321 112.66C241.706 121.847 236.97 131.251 232.234 140.639C229.551 145.957 229.551 145.957 227.656 149.708C226.789 151.425 226.451 152.094 226.248 152.497C222.404 162.382 214.287 170.017 204.146 173.235L202.172 173.861H67.378L67.1866 173.852L40.7846 173.845C33.1849 174.222 27.1085 180.298 26.7479 187.235L26.7239 199.808C27.1831 207.462 33.3013 213.574 40.1219 213.983H42.4049C47.9128 198.4 62.7744 187.235 80.2437 187.235C97.713 187.235 112.575 198.4 118.083 213.983H149.397C154.904 198.4 169.766 187.235 187.235 187.235C209.394 187.235 227.357 205.199 227.357 227.357C227.357 249.516 209.394 267.479 187.235 267.479C169.766 267.479 154.904 256.314 149.397 240.731H118.083C112.575 256.314 97.713 267.479 80.2437 267.479C62.7681 267.479 47.902 256.306 42.3989 240.714L39.3627 240.71C18.2254 239.508 1.29488 222.595 0 200.609L0.0164309 186.573C1.07256 165.286 18.0596 148.258 39.9871 147.12L26.8823 55.3872L26.7479 53.4958C26.7479 44.8437 22.3461 34.5727 17.2911 29.5177C15.9805 28.2072 10.1435 26.7479 0 26.7479V0C16.6045 0 28.5993 2.99872 36.2047 10.6041C40.6857 15.0851 44.6254 20.9829 47.608 27.5567V27.5567ZM68.3793 147.114H197.526C199.31 146.142 200.697 144.542 201.395 142.596L202.048 141.08C202.362 140.458 202.362 140.458 203.781 137.649C205.673 133.903 205.673 133.903 208.353 128.592C213.083 119.216 217.812 109.825 222.225 101.039L222.419 100.654C230.151 85.2611 236.056 73.4273 239.305 66.8019L53.633 53.5056L66.7381 145.241C66.8662 146.147 67.5206 146.875 68.3793 147.114V147.114ZM187.235 240.731C194.622 240.731 200.609 234.743 200.609 227.357C200.609 219.971 194.622 213.983 187.235 213.983C179.849 213.983 173.861 219.971 173.861 227.357C173.861 234.743 179.849 240.731 187.235 240.731ZM80.2437 240.731C87.63 240.731 93.6177 234.743 93.6177 227.357C93.6177 219.971 87.63 213.983 80.2437 213.983C72.8575 213.983 66.8698 219.971 66.8698 227.357C66.8698 234.743 72.8575 240.731 80.2437 240.731Z" fill="white"/>
+                </svg>
+
+				<nav>
+					<a href="/index.html" class="nag">Home</a>
+					<a href="/menu/menu.html" class="nag">Menu</a>
+					<a href="/signup/signup.html" class="nag">Sign Up</a>
+				</nav>
+		</div>
+		<div class="project">
+			<div class="shop">
+				<div class="box">
+					<img src="https://media.istockphoto.com/photos/flat-white-coffee-picture-id182238251?b=1&k=20&m=182238251&s=170667a&w=0&h=LhPv0NvFXCpOwrk9oFZFquRJpTyeUA1nGCjlHexdpvc=" height="250" width="250">
+					<div class="content">
+						<h3>Cappuccino</h3>
+						<h4>Price: &#8377;150</h4>
+						<p class="unit">Quantity: <input type="number" min="1" max="10" value="1"></p>
+						<button class="btn-area">Remove</button>
+					</div>
+				</div>
+				<div class="box">
+                    
+					<img src="https://im.rediff.com/getahead/2020/sep/29burnt-garlic-chilli-maggi.jpg" height="250" width="250" >
+					<div class="content">
+						<h3>Maggi</h3>
+						<h4>Price: &#8377;60</h4>
+						<p class="unit">Quantity: <input type="number" min="1" max="10" value="1"></p>
+						<button class="btn-area">Remove</button>
+					</div>
+				</div>
+				<div class="box">
+					<img src="https://www.crazymasalafood.com/wp-content/images/sanlty-lassi.jpg" height="310" width="310">
+					<div class="content">
+						<h3>lassi</h3>
+						<h4>Price: &#8377;50</h4>
+						<p class="unit">Quantity:<input type="number" min="1" max="10" value="1"></p>
+						<button class="btn-area">Remove</button>
+					</div>
+				</div>
+			</div>
+			<div class="right-bar">
+				<p><span>Subtotal</span> <span>&#8377;120</span></p>
+				<hr>
+				<p><span>Tax (8%)</span> <span>&#8377;8
+                </span></p>
+				<hr>
+				<p><span>Shipping</span> <span>&#8377;51</span></p>
+				<hr>
+				<p><span>Total</span> <span>&#8377;179</span></p>
+                <button class="Checkout">Checkout</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+
+
+

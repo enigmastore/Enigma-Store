@@ -1,0 +1,119 @@
+body {
+  background-color: #ecd9ba;
+  margin: 0;
+  overflow: hidden;
+}
+
+@media (min-width: 1000px) {
+  
+  body {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+
+  .logos {
+      position: absolute;
+      top: 34.375rem;
+  }
+  
+}
+
+.images {
+  display: flex;
+}
+
+.beans {
+  right: 24rem;
+  top: 0;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 58rem;
+}
+
+.logo {
+  top: 2.9rem;
+  left: 5.7rem;
+  position: absolute;
+  height: 22rem;
+  width: 22rem;
+}
+
+.name {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;   
+  text-align: center;
+  
+}
+
+.divs {
+  text-align: center;
+  display: inline;
+}
+
+.insta {
+  margin-left: 8.9rem;
+    
+}
+
+.face {
+  margin-left: 4rem;
+}
+
+.twitter {
+  margin-left: 4rem;
+}
+
+.logos {
+  margin-top: 10rem;
+}
+
+.nav {
+  text-align: right;
+  margin-top: 2rem;
+}
+
+.menu, .cart, .about {
+  margin-right: 3rem;
+  margin-top: 3rem;
+  font-size: 1.2rem;
+  color: #974928;
+  font-family: 'Bitter', serif;
+}
+
+.menu:hover, .cart:hover, .about:hover {
+  color: #949398FF;
+  transition: 0.75s;
+  text-decoration: none;
+}
+
+.about {
+  margin-right: 3rem;
+}
+
+.title, .motto {
+  font-family: 'Dancing Script', cursive;
+}
+
+.title {
+  margin-right: 3rem;
+  margin-top: 12rem;
+  font-size: 6rem;
+  color: #974928;
+  text-align: left;
+  display: flex;
+  margin-left: -6rem;
+}
+
+.motto {
+  color: #C8A27C;
+  font-size: 2rem;
+  text-align: left;
+  margin-left: -5.5rem;
+  margin-top: 3rem;
+}
+
+.arrow {
+  margin-left: -1.5rem;
+  margin-top: 7.8rem;
+}
+
