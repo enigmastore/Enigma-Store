@@ -76,8 +76,8 @@ border-radius: 2rem;
     display: flex;
     background-color:rgb(89, 71, 62);
     color: rgb(66, 38, 38);
-    font-size: 20;
-    padding-left: 5rem;
+ 
+    padding-left: 0rem;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -181,11 +181,12 @@ body{
 }
 
 .link {
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: darkgray;
+    margin-left: -1rem;
 }
 
 .link:hover
 {
-  cursor: pointer;
+  cursor: pointer;
 }
